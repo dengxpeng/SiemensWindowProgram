@@ -1,0 +1,8 @@
+打包
+maven clean package
+
+注意：D:\tools\javafx-sdk-21.0.9必须是完整的 sdk
+
+
+运行
+java --module-path "D:\tools\javafx-sdk-21.0.9\lib" --add-modules javafx.controls,javafx.fxml -jar ./target/SiemensWindowProgram-jar-with-dependencies.jar
